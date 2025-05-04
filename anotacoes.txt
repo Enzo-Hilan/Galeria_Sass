@@ -41,3 +41,5 @@ Parents selector:
  --                   |             &:hover                                                                           |
  --                   |                 color: nomeArquivo.$secondary-color                                           |
  --                   |-----------------------------------------------------------------------------------------------|
+
+Criando a branch parte6
