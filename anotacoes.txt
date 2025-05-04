@@ -11,4 +11,6 @@ Variáveis no Sass:
 
 Escopo Sass:
   -- Observe que o sass identifica os elementos através da identação
-  
+
+Mixins:
+  -- Aprendendo sobre Mixins
