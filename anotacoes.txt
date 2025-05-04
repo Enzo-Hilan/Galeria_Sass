@@ -1,0 +1,3 @@
+> sass --watch sass/styles.sass:css/styles.css
+  -- Transforma o sass em css
+
