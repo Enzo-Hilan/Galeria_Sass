@@ -59,3 +59,5 @@ Utilizando mixins com parametros:
  -- |   @include bg-img('nomeDaImagem.jpg') |
  -- |                                       |
  -- |---------------------------------------|
+
+Criando Branch parte7
