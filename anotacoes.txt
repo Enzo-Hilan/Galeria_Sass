@@ -29,4 +29,17 @@ Utilizando mixins:
   -- |  @include nome_do_mixin  |
   -- |--------------------------|
 
-Criando branch parte5
+Parents selector:
+ -- Pode selecionar o elemento filho pelo inicio da classe do elemento padding
+ -- Utiliza-se o "&-brand" que equivale a ".header .header-brand"
+ -- Exemplo:
+ --                   |-----------------------------------------------------------------------------------------------|
+ --                   |.header                                                                                        |
+ --                   |     &-navbar // Faz a substituição da utilização do '.header-navbar' omitindo o pai '.header' |
+ --                   |         a                                                                                     |
+ --                   |             color: nomeArquivo.$primary-color                                                 |
+ --                   |             &:hover                                                                           |
+ --                   |                 color: nomeArquivo.$secondary-color                                           |
+ --                   |-----------------------------------------------------------------------------------------------|
+
+Criando a branch parte6
