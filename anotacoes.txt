@@ -12,5 +12,19 @@ Variáveis no Sass:
 Escopo Sass:
   -- Observe que o sass identifica os elementos através da identação
 
-Mixins:
-  -- Aprendendo sobre Mixins
+Utilizando mixins:
+  -- Novo arquivo chamado de _mixins.sass
+  -- Utilizado para reutilização e padronização de códigos
+  -- Segue a seguinte estrutura: |-----------------------------|
+  --                             | @mixin nome_do_mixin        |
+  --                             |     padding: 0              |
+  --                             |     margin: auto 0          |
+  --                             |-----------------------------|
+  --
+  -- No arquivo principal deve ser chamado da seguinte forma:
+  -- |--------------------------|
+  -- |@use 'mixins'             |
+  -- |header                    |
+  -- |  background-color: red   |
+  -- |  @include nome_do_mixin  |
+  -- |--------------------------|
