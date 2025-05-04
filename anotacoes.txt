@@ -8,3 +8,7 @@ Variáveis no Sass:
   -- Para utilizar outros modulos .sass utilize o "@use 'nomeArquivo'" no arquivo .sass principal
   -- -- Observe que o "_" é omitido na chamada do "@use"
   -- Para utilizar as variáveis utilize: "color: nomeArquivo.$nomeVariavel"
+
+Escopo Sass:
+  -- Observe que o sass identifica os elementos através da identação
+  
