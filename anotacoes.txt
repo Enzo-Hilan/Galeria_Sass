@@ -60,4 +60,27 @@ Utilizando mixins com parametros:
  -- |                                       |
  -- |---------------------------------------|
 
-Criando Branch parte7
+Tornando o site responsivo:
+ -- Para trabalhar com a responsividade primeiro criamos uma mixin nomeada de 'mobile', mas pode ter outro nome_da_Variavel_desejada
+ -- Nesta mixin trabalharemos com '@media' assim como no css, porém, seguindo os padrões do Sass
+ -- |------------------------------|
+ -- |@mixin mobile                 |
+ -- |    @media(max-width: 425px)  |
+ -- |        @content              |
+ -- |                              |
+ -- |------------------------------|
+ -- 
+ --
+ -- A utilização no arquivo principal segue neste modelo:
+ -- |-----------------------------------|
+ -- |ul                                 |
+ -- |   height: 100%                    |
+ -- |   @include mixins.flex-center     |
+ -- |                                   |
+ -- |   @include mixins.mobile          |
+ -- |       display: none               |
+ -- |-----------------------------------|
+ --
+ --
+ -- O "@content" injeta todo o conteúdo que estiver identado no include desde que a condição da "@media" seja satisfeita
+ --
