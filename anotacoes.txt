@@ -1,3 +1,10 @@
 > sass --watch sass/styles.sass:css/styles.css
   -- Transforma o sass em css
 
+Variáveis no Sass:
+  -- As variáveis no Sass tem mais funcionalidades em comparação ao css
+  -- São organizadas em outro arquivo .sass "_nomeArquivo.sass"
+  -- São declaradas assim: "$nomeVariavel: #fff"
+  -- Para utilizar outros modulos .sass utilize o "@use 'nomeArquivo'" no arquivo .sass principal
+  -- -- Observe que o "_" é omitido na chamada do "@use"
+  -- Para utilizar as variáveis utilize: "color: nomeArquivo.$nomeVariavel"
