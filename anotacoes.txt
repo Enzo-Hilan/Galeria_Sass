@@ -42,4 +42,22 @@ Parents selector:
  --                   |                 color: nomeArquivo.$secondary-color                                           |
  --                   |-----------------------------------------------------------------------------------------------|
 
-Criando a branch parte6
+Utilizando mixins com parametros:
+ -- Podemos passar valores dinâmicos que irão se ajustar de acordo com o mixin
+ -- É bem similar as características das funções em linguagens de programação
+ -- Para utilizar variáveis de parametros dentro de strings, utilize: '#{$nome_da_Variavel_desejada}
+ -- |------------------------------------------|
+ -- |@mixin bg-img($img)                       |
+ -- |   background-image: url(../img/#{$img})  |
+ -- |                                          |
+ -- |------------------------------------------|
+ --
+ --
+ -- No arquivo principal:
+ -- |---------------------------------------|
+ -- |#card-1                                |
+ -- |   @include bg-img('nomeDaImagem.jpg') |
+ -- |                                       |
+ -- |---------------------------------------|
+
+Criando Branch parte7
